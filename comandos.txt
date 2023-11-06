@@ -35,3 +35,8 @@ git branch <nombre-rama> -->
 
 git checkout <nombre-rama> -->
     Cambiar a rama
+    [-b] <rama> --> Crear la rama y cambiarme a dicha rama nueva
+
+git merge <rama> -->
+    Fusiona el código de <rama> en la rama actual 
+    (en la que estoy ahora mismo).
