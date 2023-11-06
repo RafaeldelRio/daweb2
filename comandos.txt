@@ -5,6 +5,10 @@ git add <file> | . -->
     Añade ese archivo al control de versiones
     Con el . se añaden todos los de la carpeta
 
+git restore <file> | .  [--staged] -->
+    Es el opuesto al "git add". Devuelve los
+    archivos a como estaban antes.
+
 git commit -m "<mensaje>" -->
     Subo un cambio al repositorio local
 
@@ -18,3 +22,14 @@ git log -->
 git diff -->
     me muestra la diferencia entre el estado actual
     del archivo y el último commit
+
+git show <commit-code> -->
+    muestra los cambios de un commit
+
+gitk
+
+git branch <nombre-rama> -->
+    Crear una nueva rama
+
+git checkout <nombre-rama> -->
+    Cambiar a rama
