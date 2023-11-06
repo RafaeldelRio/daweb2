@@ -12,6 +12,9 @@ git restore <file> | .  [--staged] -->
 git commit -m "<mensaje>" -->
     Subo un cambio al repositorio local
 
+git push <remoto> <rama> --> 
+    Subir el código a la rama del repo remoto
+
 git status --> 
     me muestra el estado en el que está el repositorio
 
