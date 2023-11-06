@@ -1,0 +1,16 @@
+vscode
+
+CTRL + ESPACIO Para autocompletar
+Usar autocompletar para el html:5
+div.container + intro
+ctrl + shift + flecha arriba/abajo para marcar varias líneas
+ctrl + c (sin marcar nada) copia línea entera
+alt + flecha mueve una línea
+Para autoindentar: marcar las líneas + tab
+
+Prettier
+    Añadir extensión "prettier"
+    Configuración 
+        --> default formatter: prettier
+        --> format on save
+        --> prettier: print width: 120

@@ -1,0 +1,11 @@
+git init --> 
+    Crea un repositorio de código local
+
+git add <file> --> 
+    Añade ese archivo al control de versiones
+
+git commit -m "<mensaje>" -->
+    Subo un cambio al repositorio local
+
+git status --> 
+    me muestra el estado en el que está el repositorio
