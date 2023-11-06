@@ -30,6 +30,8 @@ gitk
 
 git branch <nombre-rama> -->
     Crear una nueva rama
+    [-a] mostrar todas las ramas
+    [-r] mostrar ramas remotas
 
 git checkout <nombre-rama> -->
     Cambiar a rama
