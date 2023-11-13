@@ -27,7 +27,7 @@ git diff -->
     me muestra la diferencia entre el estado actual
     del archivo y el último commit
 
-git show <commit-code> -->
+git show <commit-code> | <tag> -->
     muestra los cambios de un commit
 
 gitk
@@ -45,3 +45,13 @@ git checkout <nombre-rama> -->
 git merge <rama> -->
     Fusiona el código de <rama> en la rama actual 
     (en la que estoy ahora mismo).
+
+git tag -a <version> -m "<texto>" -->
+    Referencia a una versión concreta con una etiqueta. 
+    Sirve para lanzamientos (releases)
+
+git push <remoto> --tags -->
+    Envía los tags al repositorio remoto
+
+git fetch --tags -->
+    Trae los tags del remoto al repo local
