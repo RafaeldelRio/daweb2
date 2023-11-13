@@ -14,6 +14,7 @@ git commit -m "<mensaje>" -->
 
 git push <remoto> <rama> --> 
     Subir el código a la rama del repo remoto
+    Si pongo :<rama> --> borro la rama de forma remota
 
 git status --> 
     me muestra el estado en el que está el repositorio
@@ -35,6 +36,7 @@ git branch <nombre-rama> -->
     Crear una nueva rama
     [-a] mostrar todas las ramas
     [-r] mostrar ramas remotas
+    [-D] borro la rama de forma local
 
 git checkout <nombre-rama> -->
     Cambiar a rama
